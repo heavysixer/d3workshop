@@ -7,7 +7,7 @@ md-content.md-whiteframe-1dp(ng-show="error" layout layout-sm="column" layout-pa
   
 div(ng-hide="error" layout layout-sm="column" layout-padding flex)
   md-content.md-whiteframe-1dp.code-panel(layout="column" flex)    
-    md-tabs(md-dynamic-height md-border-bottom flex)
+    md-tabs(md-dynamic-height md-border-bottom)
       md-tab(label="Intro")
         md-content.md-padding
           div(ng-bind-html="content.description")
